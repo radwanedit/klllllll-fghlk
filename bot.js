@@ -130,7 +130,7 @@ client.on('guildMemberAdd', member => {
     .setDescription(`اهلا بك في السيرفر`)
     .addField(' :bust_in_silhouette:  انت رقم',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('GREEN')
-    .setFooter('The King Bot', 'https://cdn.discordapp.com/icons/390551815072251904/418fa2788d8115808951c9881ba8f190.jpg')
+    .setFooter('Savna codes', 'https://cdn.discordapp.com/icons/390551815072251904/418fa2788d8115808951c9881ba8f190.jpg')
 
 var channel =member.guild.channels.find('name', 'wlc')
 if (!channel) return;
